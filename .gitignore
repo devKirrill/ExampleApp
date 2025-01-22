@@ -1,5 +1,6 @@
 __tests__
 .bundle
+.DS_Store
 android
 ios
 node_modules
