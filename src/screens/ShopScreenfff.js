@@ -11,7 +11,7 @@ import Productfff from '../components/Productfff';
 const ShopScreenfff = () => {
   const renderProduct = () => {
     return products.list.map(prod => {
-        return <Productfff key={prod.title} prod={prod} />;
+        return <Productfff key={prod.image} prod={prod} />;
       });
   };
 

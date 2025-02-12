@@ -12,7 +12,7 @@ const navigation = useNavigation()
   const renderItem = () => {
     return trunsList
       .map(el => (
-        <View style={style.fffCont}>
+        <View style={style.fffCont} key={Math.random()}>
           <Text style={style.fffLiga}>{el.liga}</Text>
           <View style={style.fffWrp}>
             <Text style={style.fffDate}>{el.date}.02.2025 </Text>
